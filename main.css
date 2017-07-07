@@ -16,7 +16,10 @@
   }
 }
 
+.right-text {
+  text-align: right;
 }
+
 .row {
   width: 100%;
   display: flex;
