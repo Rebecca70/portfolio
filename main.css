@@ -2,13 +2,13 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  display:block;
+  box-sizing: flex;
 }
 
 * {
   font-family: 'Lato', sans-serif;
 }
+
 
 /**@media only screen and (max-width: 500px) {
   h1 {
@@ -41,7 +41,7 @@ hr {
 }
 
 .row {
-  width: 1500px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -51,7 +51,7 @@ hr {
 }
 
 .col-2 {
-  width: 16.66%
+  width: 16.66%;
 }
 
 .col-3 {
